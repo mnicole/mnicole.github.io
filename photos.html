@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- <meta name="viewport" content="width=500, initial-scale=1">
+<meta charset="utf-8" /> -->
+<title>MICHELE LARSON</title>
+<link href="mainstyle.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/parallax-plugin.js"></script>
+
+<link href="bxslider.css" rel="stylesheet" />
+
+<script>
+  $(document).ready(function(){
+    $('.bxslider').bxSlider({
+      mode: 'fade',
+      captions: true
+      })
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#nav').localScroll(800);
+
+    //.parallax(xPosition, speedFactor, outerHeight) options:
+    //xPosition - Horizontal position of the element
+    //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+    //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+    $('#intro').parallax("50%", 0.1);
+    $('#second').parallax("50%", 0.1);
+    $('.bg').parallax("50%", 0.4);
+    $('#third').parallax("50%", 0.3);
+
+  })
+</script>
+</head>
+
+<body>
+  <ul id="nav">
+    <li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+    <li><a href="#second" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+    <li><a href="#third" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+    <li><a href="#fourth" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+    <li><a href="#fifth" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+  </ul>
+
+  <div id="intro">
+    <div class="story">
+      <div class="name">
+        MICHELE LARSON
+      </div>
+      <div class="float-left">
+      </div>
+    </div> 
+  </div> 
+
+  <div id="second">
+    <div class="story">
+      <div class="float-right">
+        <div class="name">JOURNEY
+        </div>
+        <br />
+        <div class="transparent">
+        <p>Hello. I’m <b>Michele</b>, a <b>full-stack web developer</b> based in <b>Los Angeles.</b> <br /><br />
+        I’ve been coding since I was in 5th grade, using my self-taught skills to create incredible about me style personal pages. My background in television production, integrated marketing, and broadcast advertising at creative agencies taught me <b>account management, client facing, and multi tasking skills.</b></p>
+
+        <p>I am attending the Web Development Immersive Program at General Assembly to dive deep into programming, and my immediate enthusiasm told me I’ve found what I’ve been waiting for. </p>
+
+        <p>I want to create things that make peoples’ lives better. I think a lot about ways to improve meeting people, better ways of organizing data, food and cooking, and commerce. I love to problem solve and analyze processes to make them more efficient. </p>
+
+        <p>I am <b>passionate</b>, a <b>hard worker</b>, <b>detail-oriented</b>, <b>organized</b>, <b>pro-active</b>, and a <b>team player</b>, always with a <b>sense of humor</b>.</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div id="third">
+    <div class="story">
+      <div class="name">TRAVELS
+      </div>
+      <br />
+      <ul class="bxslider">
+        <li><a href="http://linkbatch.herokuapp.com" target="_new"><img src="images/sample1.png" title="LINK BATCH: RUBY ON RAILS, MONGO DB, HTML/ERB, CSS/BOOTSTRAP, JQUERY" /></a></li>
+        <li><a href="http://linkbatch.herokuapp.com" target="_new"><img src="images/sample1.png" title="LINK BATCH: RUBY ON RAILS, MONGO DB, HTML/ERB, CSS/BOOTSTRAP, JQUERY"/></a></li>
+      </ul>
+
+    </div> 
+
+  <div id="fourth">
+    <div class="story">
+        <div class="float-right">
+          <div class="name">SUITCASE
+          </div>
+          <br />
+        <div class="transparent">
+          <p class="suitcase">
+
+          <b>HTML &nbsp; &nbsp; &nbsp; CSS / SASS &nbsp; &nbsp; &nbsp; JAVASCRIPT &nbsp; &nbsp; &nbsp; JQUERY <br /><br />
+          ANGULAR / NODE / BACKBONE JS &nbsp; &nbsp; &nbsp; AJAX <br /><br />
+          FIREBASE / POSTGRESQL / MONGO DB <br /><br />
+          RUBY &nbsp; &nbsp; &nbsp; RUBY ON RAILS &nbsp; &nbsp; &nbsp; RSPEC TESTING<br /><br />
+          GIT / GITHUB &nbsp; &nbsp; &nbsp; API INTEGRATION &nbsp; &nbsp; &nbsp; PHOTOSHOP<br /><br />
+          PROJECT MANAGEMENT &nbsp; &nbsp; &nbsp; 
+          CLIENT MANAGEMENT
+
+          </b></p>
+          <br />
+          <p><b>SUPER SKILLS!:</b> Finding all of the typos, being fastidious about indentation, mind reading, listening, being "real", Photoshop creations, iPhone/website help, Googling..
+          </p>
+        </div>
+      </div>
+    </div> 
+  </div> 
+
+  <div id="fifth">
+    <div class="story">
+      <div class="float-left">
+        <div class="name">DESTINATION
+        </div>
+        <br />
+          <div class="transparent">
+            <p><a href="mailto:michelenicole@gmail.com"><b>Interested in</a> Internships or Jr. Web Development positions at companies where I can learn every day and be challenged. Also open to freelance opportunities.</b></p>
+
+            <p><a href="http://linkedin.com/in/michelelarson"><img src="images/linkedin.png"></a> <a href="http://github.com/mnicole"><img src="images/github.png">
+          </div>
+        </div>
+      </div> 
+    </div> 
+  </div> 
+</body>
+</html>
