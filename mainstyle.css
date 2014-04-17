@@ -23,7 +23,7 @@ body{
   margin: 0;
   min-width: 980px;
   padding: 0;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   height: 100%;
 }
 
@@ -50,7 +50,7 @@ p {
 }
 
 p, ul{
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size-adjust:0.488;
   font-weight:300;
   line-height: 1.3;
@@ -65,14 +65,12 @@ img {
 }
 
 h1, #pixels {
-  font-family: 'Archivo Narrow', sans-serif;
   font-size-adjust:0.40;
   font-weight:700;
   font-style:normal;
 }
 
 h2 {
-  font-family: 'Archivo Narrow', sans-serif;
   font-size-adjust:0.531;
   font-weight:500;
   font-style:normal;
@@ -183,7 +181,7 @@ h2 {
   height: 55px;
   width: 475px;
   border: 3px solid white;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   text-align: center;
   padding: 10px;
@@ -204,21 +202,6 @@ h2 {
   width: 705px;
   margin: 0 auto;
 }
-
-
-
-/*.textsamples {
-  background: rgba(82, 82, 82, 0.3);
-  border: 3px solid white;
-  padding: 10px;
-  width: 373px;
-}
-
-.imagesamples {
-  width: 400px;
-  height: 220px;
-}*/
-
 
 .slider{
   position: relative;
@@ -376,16 +359,12 @@ h2 {
 #fifth {
   color: white;
   height: 1000px;
-/*  padding: 100px 0 0 0; 
-*/}
+}
 
 p, a {
   font-size: 55px;
 }
-/*
-img {
-  max-width: 100%;
-}*/
+
   .name {
     color: #fff;
     background: rgba(82, 82, 82, 0.3);
@@ -394,7 +373,6 @@ img {
     font-weight: bold;
     width: 800px;
     border: 3px solid white;
-    font-family: 'Archivo Narrow', sans-serif;
     font-size: 50px;
     text-align: center;
     padding: 10px;
