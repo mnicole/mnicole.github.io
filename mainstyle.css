@@ -107,6 +107,10 @@ h2 {
   height: 600px;
   margin: 0 auto;
   padding: 160px 0 0 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #second {
@@ -115,6 +119,10 @@ h2 {
   height: 800px;
   margin: 0 auto;
   padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #third {
@@ -122,6 +130,10 @@ h2 {
   color: white;
   height: 650px;
   padding: 100px 0 0 0; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #fourth {
@@ -129,6 +141,10 @@ h2 {
   color: white;
   height: 650px;
   padding: 100px 0 0 0; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #fifth {
@@ -136,6 +152,10 @@ h2 {
   color: white;
   height: 650px;
   padding: 100px 0 0 0; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .story {
