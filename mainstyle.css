@@ -1,20 +1,4 @@
-/*
-CSS for the demo: Recreating the Nikebetterworld.com Parallax Demo
-Demo: Recreating the Nikebetterworld.com Parallax Demo
-Author: Ian Lunn
-Author URL: http://www.ianlunn.co.uk/
-Demo URL: http://www.ianlunn.co.uk/demos/recreate-nikebetterworld-parallax/
-Tutorial URL: http://www.ianlunn.co.uk/blog/code-tutorials/recreate-nikebetterworld-parallax/
-
-License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
-
-Dual licensed under the MIT and GPL licenses:
-http://www.opensource.org/licenses/mit-license.php
-http://www.gnu.org/licenses/gpl.html
-*/
-
 @charset "utf-8";
-/* CSS Document */
 
 html {
   height: 100%;
@@ -59,9 +43,7 @@ p, ul{
 }
 
 img {
-  border: 0;/*
-  max-height:100%; 
-  max-width:100%;*/
+  border: 0;
 }
 
 h1, #pixels {
@@ -165,13 +147,11 @@ h2 {
 .story .float-left, .story .float-right {
   padding: 10px;
   position: relative;
-  /*width: 500px; */
 }
 
 .story .float-center {
   padding: 10px;
   position: relative;
-  /*width: 800px; */
 }
 
 .name {
@@ -339,19 +319,19 @@ h2 {
     -webkit-transform-style: preserve-3d;
     -webkit-transition: -webkit-transform 1.5s;
 }
-.rotated{
+.rotated {
     -webkit-transform: rotateY(180deg);
 }
-.side{
+.side {
     position: absolute;
     -webkit-backface-visibility: hidden;
     -webkit-box-shadow: 0 2px 5px #666;
 }
-.front{
+.front {
     height: 260px;
     width: 320px;
 }
-.back{
+.back {
     height: 280px;
     width: 180px;
     padding: 10px;
@@ -372,8 +352,7 @@ h2 {
 #intro {
   height: 200px;
   margin: 0 auto;
-/*  padding: 160px 0 0 0;
-*/}
+}
 
 #second {
   height: 3000px;
@@ -383,13 +362,11 @@ h2 {
 
 #third {
   height: 2000px;
-/*  padding: 100px 0 0 0; 
-*/}
+}
 
 #fourth {
   height: 2000px;
-/*  padding: 100px 0 0 0; 
-*/}
+}
 
 #fifth {
   color: white;
