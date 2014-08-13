@@ -1,127 +1,163 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta name="viewport" content="width=device-width" />
-<meta charset="utf-8" />
-<title>MICHELE LARSON</title>
-<link href="mainstyle.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+<!doctype html>
+<html lang="en">
 
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('#nav').localScroll(800);
-    $('#intro').parallax("50%", 0.1);
-    $('#second').parallax("50%", 0.1);
-    $('.bg').parallax("50%", 0.4);
-    $('#third').parallax("50%", 0.3);
+	<head>
+		<meta charset="utf-8">
 
-  })
-</script>
-</head>
+		<title>MICHELE LARSON</title>
 
-<body>
-  <ul id="nav">
-    <li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-    <li><a href="#second" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-    <li><a href="#third" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-    <li><a href="#fourth" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-    <li><a href="#fifth" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-  </ul>
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
 
-  <div id="intro">
-    <div class="story">
-      <div class="name">
-        MICHELE LARSON
-      </div>
-      <div class="float-left">
-      </div>
-    </div> 
-  </div> 
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-  <div id="second">
-    <div class="story">
-      <div class="float-right">
-        <div class="name">JOURNEY
-        </div>
-        <br />
-        <div class="transparent">
-        <p>Hello. I’m <b>Michele</b>, a <b>web developer</b> based in <b>Los Angeles.</b></p>
-        <p>Currently I'm mastering Mandrill and PHP/Drupal, while redesigning email marketing at card.com.</p>
-        <p>My background in television production, integrated marketing, and broadcast advertising at creative agencies perfected my <b>account management, client-facing, and multitasking skills.</b></p>
-        <p>I want to create things that make peoples’ lives better. I think a lot about better ways of organizing data, analyzing processes to make them more efficient, and thoughtful UI design.</p>
-        <p>I am <b>passionate</b>, a <b>hard worker</b>, <b>detail-oriented</b>, <b>organized</b>, <b>pro-active</b>, and a <b>team player</b>, always with a <b>sense of humor</b>.</p>
-        </div>
-      </div>
-    </div>
-  </div> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <div id="third">
-  <div class="story">
-    <div class="float-center">
-      <div class="name">TRAVELS
-      </div>
-      <br />
-      <div class="transparent-center">
-        <div class="work-left">
-          <img src="images/sample1tiny.png" title="LINK BATCH" /><br />
-          <a href="http://linkbat.ch" target="_new"><b>LINK BATCH</b></a> (RUBY ON RAILS, MONGO DB)<br />
-          <p>Clean and simple bookmark organizer with bookmarklet<br /></p>
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="images/d.jpg">
+					<div class="transparent"><h1>Hi.</h1></div>
+					<div class="transparent">
+						<p><span class="fragment">I'm Michele.</span>
+						<span class="fragment">I'm a Web Developer based in Los Angeles.</span></p>
+					</div>
+				</section>
+
+				<section data-background="images/b.jpg">
+					<div class="transparent"><h2>JOURNEY</h2></div>
+					<div class="transparent">
+						<p>I do Email Marketing and Product Engineering at CARD.com. I get to do a little bit of everything: strategy, copywriting, design, marketing, and coding.</p><br>
+						<p>Things I'm working on that make me happy: re-imagining the email program from the ground up, redesigning our search and discovery tool, and fixing website bugs.</p>
+					</div>
+				</section>
+
+				<section data-background="images/b.jpg">
+					<div class="transparent">
+						<p>I think a lot about thoughtful UI design, how to make everything more efficient, and organizing data. I get excited about well made apps, money management, and food. </p><br>
+						<p>Before programming, my background in television production, integrated marketing, and broadcast advertising at creative agencies perfected my account management, client-facing, and multitasking skills.</p>
+					</div>
+				</section>
+
+				<section data-background="images/e.jpg">
+					<div class="transparent"><h2>TRAVELS</h2></div>
+					<div class="transparent">
+						<p><center><img src="images/sample1small.png" title="LINK BATCH" /></center><br>
+	          <a href="http://linkbat.ch" target="_new"><b>LINK BATCH</b></a> (RUBY ON RAILS, MONGO DB)<br>
+	          <p>Clean and simple bookmark organizer with bookmarklet<br></p>
+	      </section>
+
+	      <section data-background="images/e.jpg">
+					<div class="transparent">
+	          <center><img src="images/sample3small.png" title="GONE CHAT" /></center><br>
+	          <a href="http://gonechat.com" target="_new"><b>GONE CHAT</b></a> (NODE JS, SOCKET.IO)<br>
+	          <p>Disappearing chat app that keeps your information secret by fading away each message<br></p>
+	        </div>
+				</section>
+
+				<section data-background="images/c.jpg">
+					<div class="transparent"><h2>SUITCASE</h2></div>
+					<div class="transparent">
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>SASS/BREAKPOINT</li>
+							<li>MOBILE RESPONSIVE DESIGN</li>  
+						</ul>
+						<ul>
+							<li>JAVASCRIPT</li>
+							<li>JQUERY*</li>
+							<li>AJAX*</li>
+						</ul>
+						<p><br>* still learning</p>
+					</div>
+				</section>
+
+				<section data-background="images/c.jpg">
+					<div class="transparent">
+						<ul>
+							<li>RUBY/RAILS</li>
+							<li>PHP/DRUPAL*</li>
+							<li>NODE JS*</li>
+							<li>POSTGRESQL</li>
+							<li>MYSQL</li>
+							<li>MONGO DB</li>
+						</ul>
+						<ul>
+							<li>GIT/GITHUB</li>
+							<li>API INTEGRATION</li>
+							<li>PHOTOSHOP</li>
+							<li>AGILE DEVELOPMENT</li>
+							<li>PROJECT MANAGEMENT</li>
+							<li>CLIENT MANAGEMENT</li>
+						</ul>
+					</div>
+				</section>
+
+				<section data-background="images/c.jpg">
+					<div class="transparent"><h2>SUPER SKILLS</h2></div>
+					<div class="transparent"><p>Finding all of the typos, being fastidious about indentation, mind reading, listening, being "real", Photoshop creations, iPhone/website help, Googling..</p></div>
+				</section>
+
+				<section data-background="images/a.jpg">
+					<div class="transparent"><h2>DESTINATION</h2></div>
+					<div class="transparent"><p><a href="mailto:michelenicole@gmail.com">Possibly interested</a> in contract opportunities, depending on the project. Probably too busy though.</p><br>
+
+					<p>This site was built to check out <a href="http://lab.hakim.se/reveal-js/#/" target="_new">REVEAL.JS</a>. It's cool. And way easier than I thought it would be. I modified it to make it look pretty on phones.</p><br>
+
+					<p><a href="http://linkedin.com/in/michelelarson"><img src="images/linkedin.png" border="0"></a> <a href="http://github.com/mnicole"><img src="images/github.png" border="0"></a></p></div>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: false,
+				history: true,
+				center: true,
+				touch: true,
+				keyboard: true,
 
 
-          <img src="images/sample3tiny.png" title="GONE CHAT" /><br />
-          <a href="http://gonechat.com" target="_new"><b>GONE CHAT</b></a> (NODE JS, SOCKET.IO)<br />
-          <p>Disappearing chat app that keeps your information secret by fading away each message<br /></p>
-          <!-- 
-          <img src="images/sample2tiny.png" title="PARKPOINTER" /><br />
-          <a href="http://parkpointer.herokuapp.com" target="_new"><b>PARK POINTER</b></a> (RUBY ON RAILS, POSTGRESQL, JAVASCRIPT, GOOGLE MAPS API, JQUERY/AJAX)<br />
-          <p>Mapping Los Angeles street parking data with the ability to check in, recall your parking space, and receive notifications to move your car *in progress</p> -->
-        </div>
-    </div>
-    </div>
-  </div>
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
-  <div id="fourth">
-    <div class="story">
-      <div class="float-right">
-        <div class="name">SUITCASE
-        </div>
-        <br />
-        <div class="transparent">
-        <p>
-          <b>HTML &nbsp; &nbsp; &nbsp; CSS &nbsp; &nbsp; &nbsp; MOBILE RESPONSIVE DESIGN &nbsp; &nbsp; &nbsp; <br /><br />
-          JAVASCRIPT &nbsp; &nbsp; &nbsp; JQUERY* &nbsp; &nbsp; &nbsp; AJAX* &nbsp; &nbsp; &nbsp; NODE JS* &nbsp; &nbsp; &nbsp; ANGULAR JS*<br /><br />
-          POSTGRESQL &nbsp; &nbsp; &nbsp; MONGO DB <br /><br />
-          RUBY &nbsp; &nbsp; &nbsp; RUBY ON RAILS<br /><br />
-          GIT / GITHUB &nbsp; &nbsp; &nbsp; API INTEGRATION &nbsp; &nbsp; &nbsp; PHOTOSHOP &nbsp; &nbsp; &nbsp; AGILE DEVELOPMENT<br /><br />
-          PROJECT MANAGEMENT &nbsp; &nbsp; &nbsp; CLIENT MANAGEMENT
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
 
-          </b></p>
-          
-          <p><b>SUPER SKILLS!:</b> Finding all of the typos, being fastidious about indentation, mind reading, listening, being "real", Photoshop creations, iPhone/website help, Googling..
-          </p>
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
 
-          <p><b>*</b> CONTINUOUS LEARNING!</p>
+		</script>
 
-          </div>
-        </div> 
-      </div>
-    </div> 
-
-  <div id="fifth">
-    <div class="story">
-      <div class="float-left">
-        <div class="name">DESTINATION
-        </div>
-        <br />
-          <div class="transparent">
-            <p><b><a href="mailto:michelenicole@gmail.com">Possibly interested in</a></b> contract opportunities, depending on the project. Probably too busy though.</p>
-            <a href="http://linkedin.com/in/michelelarson"><img src="images/linkedin.png"></a> <a href="http://github.com/mnicole"><img src="images/github.png"></a>
-          </div>
-        </div>
-      </div> 
-    </div> 
-</body>
+	</body>
 </html>
