@@ -34,25 +34,33 @@ div {
 }
 
 @media (min-width: 480px) and (max-width: 900px) {
-    div {
-      width: 80%;
-    }
+  div {
+    width: 80%;
+  }
 }
 
 @media (min-width: 400px) and (max-width: 479px) {
-    div {
-      width: 100%;
-    }
-    h1 {
-      font-size: 60px;
-    }
+  body {
+    color: #FFFAF7;
+  }
+  div {
+    width: 100%;
+  }
+  h1 {
+    font-size: 60px;
+    font-weight: 200;
+  }
 }
 
 @media (max-width: 479px) {
-    div {
-      width: 100%;
-    }
-    h1 {
-      font-size: 50px;
-    }
+  body {
+    color: #FFFAF7;
+  }
+  div {
+    width: 100%;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 200;
+  }
 }
