@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rubber Duck Debugging</title>
+    <style>
+    body {
+        text-align: center;
+        font-family:sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <h1>Hard coding problem? Talk to the duck.</h1>
+    <p>Click the duck to keep the conversation going.</p>
+    <img src="duck.jpeg" onclick="encourage()">
+<script>
+function encourage() {
+    var random = Math.floor((Math.random() * 6) + 1);
+    var file = 'audio/' + random + '.m4a';
+    var audio = new Audio(file);
+    audio.play();
+}
+</script>
+</body>
+</html>
