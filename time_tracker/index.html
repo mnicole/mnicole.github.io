@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Tracker</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 30px;
+            background-color: #c6d7eb;
+            font-family: "Arial Black";
+        }
+        button {
+            padding: 10px;
+            margin: 10px;
+            background-color: #1868ae;
+            color: white;
+            border-radius: 10px;
+            border: 0;
+        }
+        .pink {
+            background-color: #d9a5b3;
+        }
+    </style>
+</head>
+<script defer src="script.js"></script>
+<body>
+<div>
+    <button onclick="setTime()">Record Time</button>
+    <div>Last Time: <span id="last-time"></span></div>
+    <button class="pink" onclick="clearTime()">Clear</button>
+</div>
+</body>
+</html>
