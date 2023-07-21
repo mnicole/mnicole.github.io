@@ -5,11 +5,20 @@ body {
     font-size: 20px;
     font-weight: 100;
     letter-spacing: .04em;
+    margin: 50px;
 }
 
 h1 {
     font-family: 'Lato', sans-serif;
     font-size: 90px;
+    font-weight: 100;
+    letter-spacing: 0;
+    margin: 60px 0;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
     font-weight: 100;
     letter-spacing: 0;
     margin: 60px 0;
@@ -62,4 +71,11 @@ section {
         font-size: 50px;
         font-weight: 200;
     }
+}
+
+section > img {
+    float: left;
+    margin: 5px 15px;
+    height: 100px;
+    border-radius: 5px;
 }
